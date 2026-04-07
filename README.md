@@ -11,7 +11,6 @@ No PyPI:
 ```bash
 pip install mads-marketHelper
 ```
-*(Nota: A biblioteca `matplotlib` é estritamente necessária para a geração de gráficos).*
 
 ### Importação
 
