@@ -10,7 +10,7 @@ except FileNotFoundError:
 
 setup(
     name="mads-market-helper",
-    version="1.0.0",
+    version="1.0.2",
     description="Sistema de gestão e análise de compras em superfícies comerciais",
     long_description=README,
     long_description_content_type="text/markdown",
