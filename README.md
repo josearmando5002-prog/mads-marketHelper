@@ -7,7 +7,7 @@ Este módulo opera diretamente em memória e oferece as seguintes funcionalidade
 
 ### Instalação
 
-No PyPI:
+No terminal:
 ```bash
 pip install mads-marketHelper
 ```
