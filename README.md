@@ -1,3 +1,5 @@
+# Mads Market Helper
+
 Biblioteca Python para gestão e análise de compras feitas por utilizadores em diferentes superfícies comerciais.
 Este módulo opera diretamente em memória e oferece as seguintes funcionalidades:
 * registo e listagem de utilizadores, lojas e compras;
@@ -8,18 +10,16 @@ Este módulo opera diretamente em memória e oferece as seguintes funcionalidade
 ### Instalação
 
 No terminal:
-```bash
-pip install mads-marketHelper
-```
+`pip install mads-market-helper`
 
 ### Importação
 
 ```python
-from mads_grupo2_dev import *
+from MadsMarketHelper import *
 ```
 Também podes carregar métodos específicos:
 ```python
-from mads_grupo2_dev import add_user, add_loja, add_compra, listar_dados
+from MadsMarketHelper import add_user, add_loja, add_compra, listar_dados, consultar_estatisticas, gerar_grafico_evolucao, exportar_para_json
 ```
 
 ### Estrutura de dados (em memória)
@@ -126,7 +126,7 @@ Transfere a informação da memória para um documento local em `.json`.
 ### Exemplo completo
 
 ```python
-from mads_grupo2_dev import *
+from MadsMarketHelper import *
 
 # 1. Registar Utilizadores e Lojas
 add_user("João Martins", "123456789", "15-05-1990", "M")
